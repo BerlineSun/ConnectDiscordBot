@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordBot" Version="1.3.0" />
+	  <Using Include="Discord.WebSocket" />
+	  <Using Include="Discord.Commands" />
+	  <Using Include="Discord" />
+	  <Using Include="Microsoft.Extensions.DependencyInjection" />
+	  <Using Include="ConnectDiscordBot.Service.Obj" Static="true" />
+	  <Using Include="System.Reflection" />
+	  <Using Include="ConnectDiscordBot.Service" />
+  </ItemGroup>
+
+</Project>

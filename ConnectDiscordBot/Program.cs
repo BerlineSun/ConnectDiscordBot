@@ -1,0 +1,1 @@
+﻿RunBot.RunBotAsyne().GetAwaiter().GetResult(); 
